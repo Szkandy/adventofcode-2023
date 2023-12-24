@@ -118,6 +118,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/robust-point-in-polygon@npm:^1":
+  version: 1.0.4
+  resolution: "@types/robust-point-in-polygon@npm:1.0.4"
+  checksum: c01ecf1c001ec3c976fdb9b4d9c2ed454cde728eb0e1c416ecb6f2c8123734946491c57738a4cd13bdb2660a3820d6a615ccc126a073cc57cf5bdadc41be4a05
+  languageName: node
+  linkType: hard
+
 "abbrev@npm:1":
   version: 1.1.1
   resolution: "abbrev@npm:1.1.1"
@@ -153,7 +160,9 @@ __metadata:
   resolution: "adventofcode-2023@workspace:."
   dependencies:
     "@types/node": "npm:^20.10.1"
+    "@types/robust-point-in-polygon": "npm:^1"
     nodemon: "npm:^3.0.2"
+    robust-point-in-polygon: "npm:^1.0.3"
     ts-node: "npm:^10.9.1"
     typescript: "npm:^5.3.2"
   languageName: unknown
@@ -971,6 +980,51 @@ __metadata:
   languageName: node
   linkType: hard
 
+"robust-orientation@npm:^1.0.2":
+  version: 1.2.1
+  resolution: "robust-orientation@npm:1.2.1"
+  dependencies:
+    robust-scale: "npm:^1.0.2"
+    robust-subtract: "npm:^1.0.0"
+    robust-sum: "npm:^1.0.0"
+    two-product: "npm:^1.0.2"
+  checksum: 9c6cd48185ba2b3de633271ffd1e5ef6cd94cfd3b5e66a6a29327a0223b6f67c660bcf3677d9f91aecf15e16d4db231d361c35830de245c3a440a406b7335422
+  languageName: node
+  linkType: hard
+
+"robust-point-in-polygon@npm:^1.0.3":
+  version: 1.0.3
+  resolution: "robust-point-in-polygon@npm:1.0.3"
+  dependencies:
+    robust-orientation: "npm:^1.0.2"
+  checksum: dd665e7f7908d12e71f4c4e7e5947faf7d4f892bd83c501d1794ebd710df3652203f586f4a3becac09c5da0419bc659bd69e5d9e577c4998ddceb260582e5b38
+  languageName: node
+  linkType: hard
+
+"robust-scale@npm:^1.0.2":
+  version: 1.0.2
+  resolution: "robust-scale@npm:1.0.2"
+  dependencies:
+    two-product: "npm:^1.0.2"
+    two-sum: "npm:^1.0.0"
+  checksum: 18d047f3833793a96b3959633c34ca307a678e5fd68bb1d6b1fdaea5c039340b95b8cfa6a9cd64840a29ae856f927958341deb71870b5fdf4f22768f3de98988
+  languageName: node
+  linkType: hard
+
+"robust-subtract@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "robust-subtract@npm:1.0.0"
+  checksum: dc96643abaa0b26b0c0468449f91c7178e835cd913ee0ad8a4f6b5025ebea832ccd0084aa86d82d2b36f2f550f68069289b5775f2ef52d5e383777c58bb28509
+  languageName: node
+  linkType: hard
+
+"robust-sum@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "robust-sum@npm:1.0.0"
+  checksum: ca0273b895f275a7c404bb05ef873b99f030bcc6c26fe8232cfeec33fc7ef2c1d0192ee20d5a7d41e1cfa3b211b854db24b6222f53949301d60a5ea827c6c24a
+  languageName: node
+  linkType: hard
+
 "safer-buffer@npm:>= 2.1.2 < 3.0.0":
   version: 2.1.2
   resolution: "safer-buffer@npm:2.1.2"
@@ -1176,6 +1230,20 @@ __metadata:
     ts-node-transpile-only: dist/bin-transpile.js
     ts-script: dist/bin-script-deprecated.js
   checksum: 95187932fb83f3901e22546bd2feeac7d2feb4f412f42ac3a595f049a23e8dcf70516dffb51866391228ea2dbcfaea039e250fb2bb334d48a86ab2b6aea0ae2d
+  languageName: node
+  linkType: hard
+
+"two-product@npm:^1.0.2":
+  version: 1.0.2
+  resolution: "two-product@npm:1.0.2"
+  checksum: da6749a7aeef789c71735acd31987b821452e81120028f85cb2d0ee0342cee077b9ed0067f1693ad99cb565a71400271ff726189f7946e1e006944db95056abf
+  languageName: node
+  linkType: hard
+
+"two-sum@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "two-sum@npm:1.0.0"
+  checksum: 8c5f1f62fb029e5f5538a4efac52a81be26942cf3b050969f0f9d21a7d45fb48dc710ba130794fd639a31b5f3491fd2c7c7e7506571eb07c1aeac409f950f44a
   languageName: node
   linkType: hard
 

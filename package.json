@@ -10,9 +10,13 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.10.1",
+    "@types/robust-point-in-polygon": "^1",
     "nodemon": "^3.0.2",
     "ts-node": "^10.9.1",
     "typescript": "^5.3.2"
   },
-  "packageManager": "yarn@4.0.2"
+  "packageManager": "yarn@4.0.2",
+  "dependencies": {
+    "robust-point-in-polygon": "^1.0.3"
+  }
 }
